@@ -87,3 +87,12 @@ Project | Modified | License
 ---|---|---|
 [Atcold/torch-TripletEmbedding](https://github.com/Atcold/torch-TripletEmbedding) | No | MIT
 [facebook/fbnn](https://github.com/facebook/fbnn) | Yes | BSD
+
+运行错误:
+先要装lua的 graphicsmagick: 
+
+luarocks install graphicsmagick
+可能还会报错：
+graphicsmagick/Image.lua:329: libGraphicsMagickWand.so:
+装dev库 ：
+sudo apt-get install libgraphicsmagick1-dev
